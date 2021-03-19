@@ -11,6 +11,9 @@ module.exports = function(format) {
         case 'ts':
         case 'timestamp':
             return _ele.ts;
+        case 'time':
+        case 't':
+            return _ele.hh + ':' + _ele.mm + ':' + _ele.ss;
         default:
             return _ele.y + '-' + _ele.m + '-' + _ele.d + ' ' + _ele.hh + ':' + _ele.mm + ':' + _ele.ss;
     }
