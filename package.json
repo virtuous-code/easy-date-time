@@ -1,0 +1,28 @@
+{
+  "name": "easy-date-time",
+  "version": "1.0.0",
+  "description": "A small tool for handling the normal date & time operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtuous-code/easy-date-time.git"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "easy date",
+    "timestamp",
+    "easy time",
+    "time format",
+    "date format"
+  ],
+  "author": "125512240@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/virtuous-code/easy-date-time/issues"
+  },
+  "homepage": "https://github.com/virtuous-code/easy-date-time#readme"
+}
