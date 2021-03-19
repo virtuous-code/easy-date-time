@@ -1,6 +1,6 @@
 {
   "name": "easy-date-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small tool for handling the normal date & time operations",
   "main": "index.js",
   "scripts": {
