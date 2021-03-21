@@ -57,6 +57,10 @@ import { now, format, toUtc, toLocal } from '@youmaole/easy-date-time';
 - date string: '2021-03-20 08:00:00'
 - timestamp: 1616245217168
 
+**Todos:**
+- add months
+- add year
+
 
 
 
