@@ -7,7 +7,7 @@ A small tool for date &amp; time operations.
 import { now, format, toUtc, toLocal } from '@youmaole/easy-date-time';
 ## Usage
 **Methods for getting now:**
-```now(option)```
+```now(option?)```
 - Format 1: now() // 2021-03-20 20:22:09
 - Format 2: now('-') // 2021-03-20 20:22:09
 - Format 3: now('/') // 2021/03/20 20:22:09
@@ -17,7 +17,7 @@ import { now, format, toUtc, toLocal } from '@youmaole/easy-date-time';
 - Format 7: now('t') // 20:22:09
 
 **Methods for date/time format:**
-```format(date_input, option)```
+```format(date_input, option?)```
 - Format 1: format('2021-03-20') // 2021-03-20 08:00:00
 - Format 2: format('2021-03-20', 'yyyy-mm-dd') // 2021-03-20
 - Format 3: format('2021-03-20', 'yyyy-mm-dd hh:mm:ss') // 2021-03-20 08:00:00
@@ -41,9 +41,15 @@ import { now, format, toUtc, toLocal } from '@youmaole/easy-date-time';
 - Format 21: format('2021-03-20', 'timestamp') // 1616198400000
 
 **Methods for UTC format:**
-
+```toUtc(local_date_input)```
 - Local to UTC: toUtc('2021-03-20') // 2021-03-20 00:00:00
+```toLocal(utc_date_input)```
 - UTC to local: toLocal('2021-03-20 00:00:00') // 2021-03-20 08:00:00
+
+**Methods for adding days:**
+```addDays(date_input, days?)```
+- Default add 1 day: addDays('2021-03-20') // 2021-03-21 08:00:00
+- Other days: addDays('2021-03-20', 3) // 2021-03-25 08:00:00
 
 **Valid input:**
 - date object: new Date()
