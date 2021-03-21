@@ -5,7 +5,7 @@ A small tool for date &amp; time operations.
 * npm i @youmaole/easy-date-time
 * yarn add @youmaole/easy-date-time
 ## Import
-import { now, format, toUtc, toLocal } from '@youmaole/easy-date-time';
+import { now, format, toUtc, toLocal, addDays } from '@youmaole/easy-date-time';
 ## Usage
 **Methods for getting now:**
 ```now(option?)```
