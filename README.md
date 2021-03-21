@@ -49,7 +49,7 @@ import { now, format, toUtc, toLocal } from '@youmaole/easy-date-time';
 **Methods for adding days:**
 ```addDays(date_input, days?)```
 - Default add 1 day: addDays('2021-03-20') // 2021-03-21 08:00:00
-- Other days: addDays('2021-03-20', 3) // 2021-03-25 08:00:00
+- Other days: addDays('2021-03-20', 5) // 2021-03-25 08:00:00
 
 **Valid input:**
 - date object: new Date()
