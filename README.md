@@ -5,7 +5,7 @@ A small tool for date &amp; time operations.
 * npm i @youmaole/easy-date-time
 * yarn add @youmaole/easy-date-time
 ## Import
-import { now, format, toUtc, toLocal, addDays } from '@youmaole/easy-date-time';
+import { now, format, toUtc, toLocal, addDays, addMonths } from '@youmaole/easy-date-time';
 ## Usage
 **Methods for getting now:**
 ```now(option?)```
@@ -49,8 +49,14 @@ import { now, format, toUtc, toLocal, addDays } from '@youmaole/easy-date-time';
 
 **Methods for adding days:**
 ```addDays(date_input, days?)```
-- Default add 1 day: addDays('2021-03-20') // 2021-03-21 08:00:00
+- Default add 0 day: addDays('2021-03-20') // 2021-03-20 08:00:00
 - Other days: addDays('2021-03-20', 5) // 2021-03-25 08:00:00
+
+**Methods for adding months:**
+```addMonths(date_input, months?)```
+- Default add 0 month: addMonths('2021-03-20') // 2021-03-20 08:00:00
+- In this year: addMonths('2021-03-20', 5) // 2021-08-20 08:00:00
+- Out of this year: addMonths('2021-03-20', 15) // 2022-06-20 08:00:00
 
 **Valid input:**
 - date object: new Date()
@@ -59,7 +65,6 @@ import { now, format, toUtc, toLocal, addDays } from '@youmaole/easy-date-time';
 - timestamp: 1616245217168
 
 **Todos:**
-- add months
 - add year
 
 
