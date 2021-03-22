@@ -1,8 +1,8 @@
-var fnValidate = require('./validate');
+var V = require('./validate');
 var fnEle = require('./element');
 
 module.exports = function(input, format) {
-    fnValidate(input);
+    V.vDate(input);
     const _ele = fnEle(input);
 
     switch((format + '').replace(/\ /g, '').toLowerCase()) {
