@@ -58,17 +58,13 @@ import { now, format, toUtc, toLocal, addDays, addMonths } from '@youmaole/easy-
 - In this year: addMonths('2021-03-20', 5) // 2021-08-20 08:00:00
 - Out of this year: addMonths('2021-03-20', 15) // 2022-06-20 08:00:00
 
+**Methods for adding years:**
+```addYears(date_input, years?)```
+- Default add 0 year: addYears('2021-03-20') // 2021-03-20 08:00:00
+- addYears('2021-03-20', 5) // 2026-08-20 08:00:00
+
 **Valid input:**
 - date object: new Date()
 - date string: '2021-03-20', '2021/03/20'
 - date string: '2021-03-20 08:00:00'
 - timestamp: 1616245217168
-
-**Todos:**
-- add year
-
-
-
-
-
-

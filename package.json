@@ -1,6 +1,6 @@
 {
   "name": "@youmaole/easy-date-time",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A small tool for handling the normal date & time operations",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,10 @@
     "timestamp",
     "easy time",
     "time format",
-    "date format"
+    "date format",
+    "add days",
+    "add months",
+    "add years"
   ],
   "author": "125512240@qq.com",
   "license": "MIT",
