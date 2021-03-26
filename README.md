@@ -77,7 +77,7 @@ import { now, format, toUtc, toLocal, addDays, addMonths } from '@youmaole/easy-
 ```addYears(date_input, years?)```
 ```
 - Default add 0 year:     addYears('2021-03-20') // 2021-03-20 08:00:00
-- Specifed years:         addYears('2021-03-20', 5) // 2026-08-20 08:00:00
+- Specified years:         addYears('2021-03-20', 5) // 2026-08-20 08:00:00
 ```
 
 **Valid input:**
